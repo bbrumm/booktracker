@@ -1,0 +1,30 @@
+<%- include('header') -%>
+<%- include('searchBox') -%>
+  <body class="bodyStyle">
+    <div class="top-container">
+      <%- include('links') -%>
+      <h1 class="heading">Book Tracker - To Read List</h1>
+    </div>
+    <div class="pageDescription">Here's your list of books you want to read.</div>
+
+      <table class="bookListTable" align="center" width="60%">
+        <thead class="tableHeader">
+          <tr class="tableHeader">
+            <td>Book ID</td>
+            <td>Title</td>
+          </tr>
+        </thead>
+        <tbody>
+          <% for(var i=0; i < resultSet.length; i++) { %>
+          <tr>
+          <td><%= resultSet[i].book_id %></td>
+          <td><%= resultSet[i].title %></td>
+          </tr>
+          <% } %>
+
+        </tbody>
+      </table>
+      <div id="message" class="warningMessage"><%= warningMessage %></div>
+
+  </body>
+</html>

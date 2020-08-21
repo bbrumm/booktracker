@@ -1,0 +1,28 @@
+/*
+Palette: https://colorhunt.co/???
+*/
+
+.heading {
+  text-align: center;
+}
+
+.tableHeader {
+  background-color: #364f6b;
+  color: #f5f5f5;
+}
+
+.bookListTable td {
+  padding: 5px;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.warningMessage {
+  text-align: center;
+}
+
+.pageDescription {
+  text-align: center;
+  padding: 20px;
+}
