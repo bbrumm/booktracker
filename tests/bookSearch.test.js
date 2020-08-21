@@ -99,6 +99,14 @@ describe('Book Search', () => {
     expect(actualMessage).toBe(expectedMessage);
   });
 
+  test('test message for some results found', () => {
+    let expectedMessage = "";
+    let providedRowCount = 3;
+
+    let actualMessage = bookSearch.calculateNoResultsMessage(providedRowCount);
+    expect(actualMessage).toBe(expectedMessage);
+  });
+
   test('test searchForBookByTitle', () => {
     response = '';
     searchTeam = '';
@@ -136,15 +144,6 @@ describe('Book Search', () => {
     }
     return false;
   }
-
-
-  /*
-Tests:
-Search with a single letter, expect some results
-Search with the word "stone", expect at least one result
-Search for "rich dad", expect one result to be rich dad poor dad - maybe a separate function to find a book in the result set
-Search for an exact title
-  */
 
   afterAll(done => {
     // Closing the DB connection allows Jest to exit successfully.

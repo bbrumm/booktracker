@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597984628699" clover="3.2.0">
-  <project timestamp="1597984628699" name="All files">
-    <metrics statements="44" coveredstatements="42" conditionals="8" coveredconditionals="4" methods="10" coveredmethods="10" elements="62" coveredelements="56" complexity="0" loc="44" ncloc="44" packages="1" files="3" classes="3"/>
+<coverage generated="1597991875009" clover="3.2.0">
+  <project timestamp="1597991875009" name="All files">
+    <metrics statements="44" coveredstatements="42" conditionals="8" coveredconditionals="6" methods="10" coveredmethods="10" elements="62" coveredelements="58" complexity="0" loc="44" ncloc="44" packages="1" files="3" classes="3"/>
     <file name="bookSearch.js" path="/Users/BB/Documents/webdev/booktracker/services/bookSearch.js">
-      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <line num="2" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="18" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
     </file>
     <file name="databaseProcessor.js" path="/Users/BB/Documents/webdev/booktracker/services/databaseProcessor.js">
       <metrics statements="24" coveredstatements="22" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="6"/>
@@ -43,17 +43,17 @@
       <line num="63" count="8" type="stmt"/>
     </file>
     <file name="toRead.js" path="/Users/BB/Documents/webdev/booktracker/services/toRead.js">
-      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <line num="2" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="17" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

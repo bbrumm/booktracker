@@ -31,8 +31,6 @@ describe('To Read list', () => {
 
   });
 
-
-
   test('test nothing on To Read list', done => {
     let mysqlConnection = databaseProcessor.setConnection(DB_NAME_TEST);
     let fakeRes = '';
@@ -53,11 +51,17 @@ describe('To Read list', () => {
     expect(actualMessage).toBe(expectedMessage);
   });
 
+  test('test message for some on read list', () => {
+    let expectedMessage = "";
+    let providedRowCount = 1;
+
+    let actualMessage = toRead.calculateWarningMessage(providedRowCount);
+    expect(actualMessage).toBe(expectedMessage);
+  });
+
 
   test('test get prod database', () => {
     let mysqlConnection = databaseProcessor.getProductionDatabaseConnection();
-    //console.log("Connection: ", mysqlConnection);
-    //console.log("Connection DB Name: ", mysqlConnection.config.database);
     expect(mysqlConnection.config.database).toBe(DB_NAME_PROD);
 
   });
